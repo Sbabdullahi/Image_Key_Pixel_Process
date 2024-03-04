@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 
 # The copy of the proposed iSDS model deployed in the Roboflow
 rf = Roboflow(api_key="DKHqwUbtZeOxS1wCFZ1M")
-project = rf.workspace().project("hard-hat-sample-dd8no")
+project = rf.workspace().project("isds_system")
 model = project.version(3).model
 
 # load images
